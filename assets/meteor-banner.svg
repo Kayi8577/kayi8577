@@ -1,0 +1,124 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="skyGlow" cx="30%" cy="40%" r="90%">
+      <stop offset="0%" stop-color="#241B4A" />
+      <stop offset="45%" stop-color="#160F33" />
+      <stop offset="100%" stop-color="#0A0620" />
+    </radialGradient>
+
+    <linearGradient id="tailCore" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="35%" stop-color="#FDE68A" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FDE68A" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="tailGlow" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7DD4B8" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#7DD4B8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="titleFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7DD4B8" />
+      <stop offset="100%" stop-color="#B89DE8" />
+    </linearGradient>
+
+    <style>
+      <![CDATA[
+        .bg { fill: url(#skyGlow); }
+        .star { fill: #FFFFFF; }
+        .twinkle { animation: twinkle 3.4s ease-in-out infinite; }
+        .twinkle.d1 { animation-delay: -0.6s; }
+        .twinkle.d2 { animation-delay: -1.4s; }
+        .twinkle.d3 { animation-delay: -2.1s; }
+        .twinkle.d4 { animation-delay: -0.2s; }
+        .twinkle.d5 { animation-delay: -1.8s; }
+        @keyframes twinkle {
+          0%, 100% { opacity: 0.25; }
+          50% { opacity: 0.95; }
+        }
+
+        .meteor-group {
+          animation: meteor-fly 5s cubic-bezier(0.3, 0, 0.6, 1) infinite;
+        }
+        @keyframes meteor-fly {
+          0%   { transform: translate(880px, -10px); opacity: 0; }
+          4%   { opacity: 1; }
+          26%  { transform: translate(300px, 108px); opacity: 1; }
+          32%  { transform: translate(230px, 118px); opacity: 0; }
+          100% { transform: translate(230px, 118px); opacity: 0; }
+        }
+
+        .impact {
+          animation: impact-burst 5s ease-out infinite;
+          transform-origin: 230px 118px;
+        }
+        @keyframes impact-burst {
+          0%, 27% { r: 2; opacity: 0; }
+          30%     { r: 4; opacity: 0.9; }
+          40%     { r: 46; opacity: 0; }
+          100%    { r: 46; opacity: 0; }
+        }
+
+        .reveal-text {
+          opacity: 0;
+          animation: reveal 5s ease-out infinite;
+        }
+        @keyframes reveal {
+          0%, 29%  { opacity: 0; transform: translateY(6px); }
+          38%      { opacity: 1; transform: translateY(0); }
+          92%      { opacity: 1; transform: translateY(0); }
+          100%     { opacity: 0; transform: translateY(0); }
+        }
+        .reveal-text.tagline {
+          animation-name: reveal-tagline;
+        }
+        @keyframes reveal-tagline {
+          0%, 34%  { opacity: 0; transform: translateY(6px); }
+          43%      { opacity: 1; transform: translateY(0); }
+          92%      { opacity: 1; transform: translateY(0); }
+          100%     { opacity: 0; transform: translateY(0); }
+        }
+      ]]>
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="900" height="220" rx="14" />
+
+  <!-- Starfield -->
+  <circle class="star twinkle d1" cx="60" cy="30" r="1.4" />
+  <circle class="star twinkle d2" cx="140" cy="60" r="1" />
+  <circle class="star twinkle d3" cx="220" cy="24" r="1.2" />
+  <circle class="star twinkle d4" cx="310" cy="50" r="1" />
+  <circle class="star twinkle d5" cx="400" cy="18" r="1.3" />
+  <circle class="star twinkle d1" cx="480" cy="42" r="1" />
+  <circle class="star twinkle d2" cx="560" cy="70" r="1.2" />
+  <circle class="star twinkle d3" cx="630" cy="26" r="1" />
+  <circle class="star twinkle d4" cx="700" cy="52" r="1.4" />
+  <circle class="star twinkle d5" cx="760" cy="16" r="1" />
+  <circle class="star twinkle d1" cx="820" cy="46" r="1.2" />
+  <circle class="star twinkle d2" cx="100" cy="160" r="1" />
+  <circle class="star twinkle d3" cx="200" cy="185" r="1.3" />
+  <circle class="star twinkle d4" cx="520" cy="170" r="1" />
+  <circle class="star twinkle d5" cx="650" cy="190" r="1.2" />
+  <circle class="star twinkle d1" cx="780" cy="165" r="1" />
+  <circle class="star twinkle d2" cx="850" cy="150" r="1.2" />
+
+  <!-- Meteor: tail + glowing head, flies in then fades on arrival -->
+  <g class="meteor-group">
+    <rect x="-90" y="-1.5" width="90" height="3" fill="url(#tailGlow)" transform="rotate(25)" />
+    <rect x="-60" y="-1" width="60" height="2" fill="url(#tailCore)" transform="rotate(25)" />
+    <circle cx="0" cy="0" r="3.2" fill="#FFFFFF" />
+    <circle cx="0" cy="0" r="7" fill="#FDE68A" opacity="0.55" />
+  </g>
+
+  <!-- Impact glow where the meteor lands -->
+  <circle class="impact" cx="230" cy="118" r="2" fill="#FDE68A" opacity="0" />
+
+  <!-- Revealed introduction -->
+  <text class="reveal-text" x="450" y="112" text-anchor="middle" font-family="Georgia, 'Fira Code', serif" font-size="40" font-weight="700" fill="url(#titleFill)">
+    Hi, I'm Kayi
+  </text>
+  <text class="reveal-text tagline" x="450" y="148" text-anchor="middle" font-family="'Fira Code', monospace" font-size="15" fill="#CFCBE8">
+    Indie builder · Product + design minded · Ship fast
+  </text>
+</svg>
