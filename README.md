@@ -56,36 +56,57 @@ Add more links here as you get them, e.g.:
 
 ### 🚀 Featured projects
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/Kayi8577/fitfit">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kayi8577&repo=fitfit&theme=default&hide_border=true&border_color=7DD4B8" />
-</a>
-<a href="https://github.com/Kayi8577/MileStone">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kayi8577&repo=MileStone&theme=default&hide_border=true&border_color=B89DE8" />
-</a>
+**🍃 [FitFit](https://github.com/Kayi8577/fitfit)**
+<br>
+A pastel-themed health tracker: photo-based calorie logging (AI vision), workout plans, sleep tracking, and an XP/achievement system.
+<br><br>
+Modular vanilla JS + a backend proxy, so the Claude API key never touches the browser.
+<br><br>
+![Stars](https://img.shields.io/github/stars/Kayi8577/fitfit?style=flat&color=7DD4B8) ![Last commit](https://img.shields.io/github/last-commit/Kayi8577/fitfit?style=flat&color=7DD4B8)
 
-</div>
+</td>
+<td width="50%" valign="top">
 
-- 🍃 **[FitFit](https://github.com/Kayi8577/fitfit)** — A pastel-themed health tracker: photo-based calorie logging (AI vision), workout plans, sleep tracking, and an XP/achievement system. Modular vanilla JS + a backend proxy so the Claude API key never touches the browser.
-- ✨ **[MileStone](https://github.com/Kayi8577/MileStone)** — A split-screen goal dashboard paired with "BestCase," a warm, celestial-themed AI companion for productivity and emotional check-ins. React + TypeScript, Gemini-powered chat behind its own backend proxy.
+**✨ [MileStone](https://github.com/Kayi8577/MileStone)**
+<br>
+A split-screen goal dashboard paired with "BestCase," a warm, celestial-themed AI companion for productivity and emotional check-ins.
+<br><br>
+React + TypeScript, Gemini-powered chat behind its own backend proxy.
+<br><br>
+![Stars](https://img.shields.io/github/stars/Kayi8577/MileStone?style=flat&color=B89DE8) ![Last commit](https://img.shields.io/github/last-commit/Kayi8577/MileStone?style=flat&color=B89DE8)
+
+</td>
+</tr>
+</table>
 
 <br>
 
 ### 📊 GitHub stats
 
+<!--
+Note: the full "stats card" + "top languages" + "trophies" widgets are
+skipped here on purpose — they all depend on github-readme-stats.vercel.app
+and github-profile-trophy.vercel.app, the shared free community demo
+instances, which are currently paused/rate-limited (a known, structural
+issue: too many profiles hitting one free server). Everything below is
+either self-hosted (the snake, via .github/workflows/snake.yml in this
+repo) or backed by shields.io / streak-stats.demolab.com, which have held
+up reliably. If you want the fancier stats card back, fork
+https://github.com/anuraghazra/github-readme-stats and deploy your own
+free Vercel instance — then swap the URL in this section.
+-->
+
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=Kayi8577&show_icons=true&theme=default&hide_border=true&count_private=true&icon_color=7DD4B8&title_color=B89DE8" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kayi8577&layout=compact&theme=default&hide_border=true&langs_count=8&icon_color=7DD4B8&title_color=B89DE8" />
+![Followers](https://img.shields.io/github/followers/Kayi8577?style=for-the-badge&color=7DD4B8&labelColor=333) &nbsp; ![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Kayi8577&label=Public%20Repos&query=$.public_repos&style=for-the-badge&color=B89DE8&labelColor=333)
 
-<br>
+<br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kayi8577&theme=default&hide_border=true&background=FFFFFF00&ring=7DD4B8&fire=B89DE8&currStreakLabel=7DD4B8" />
-
-<br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Kayi8577&theme=flat&no-frame=true&column=7&margin-w=8&margin-h=8" />
+<img src="https://streak-stats.demolab.com/?user=Kayi8577&theme=default&hide_border=true&background=FFFFFF00&ring=7DD4B8&fire=B89DE8&currStreakLabel=7DD4B8" />
 
 <br><br>
 
@@ -95,7 +116,7 @@ Add more links here as you get them, e.g.:
   <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Kayi8577/Kayi8577/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
-<sub>(the snake regenerates daily — it'll appear here after the first GitHub Action run)</sub>
+<sub>(regenerates daily via <a href="https://github.com/Kayi8577/Kayi8577/blob/main/.github/workflows/snake.yml">GitHub Action</a> — self-hosted, no third-party dependency)</sub>
 
 </div>
 
