@@ -1,26 +1,31 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=7DD4B8&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Kayi+%F0%9F%91%8B;Indie+builder+with+a+product+%2B+design+eye;I+turn+ideas+into+working+apps%2C+fast." alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7DD4B8,100:B89DE8&height=200&section=header&text=Hi,%20I'm%20Kayi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Indie%20builder%20%E2%80%A2%20Product%20%2B%20Design%20minded%20%E2%80%A2%20Ship%20fast&descAlignY=55&descSize=18" width="100%" />
 
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=7DD4B8&center=true&vCenter=true&width=600&lines=I+turn+%22I+wish+this+existed%22+into+working+apps;Modular+architecture+%2B+real+backends%2C+not+hacks;Claude+%2F+Gemini+woven+in+as+an+actual+feature" alt="Typing SVG" />
 
-### 🧭 About me
-
-I like building things end-to-end — from the idea and the visual feel of an app, down to the code that ships it. Most of my projects start as "I wish this existed" and end as a working prototype I actually use myself.
-
-Lately that's meant taking single-file prototypes and turning them into properly structured apps: modular architecture, a real backend for anything that touches an API key, and AI (Claude, Gemini) woven in as an actual feature — not just a chat widget bolted on the side.
-
-- 🔭 Currently building **FitFit** (health/fitness tracker) and **MileStone** (goal + AI-companion app)
-- 🌱 Into clean architecture, pastel/celestial UI design, and making apps that feel good to use
-- 💬 Ask me about React refactors, backend proxy patterns, or turning a rough idea into a real PWA
-- 📫 Reach me at **bbsocute457@gmail.com** · [LinkedIn](https://www.linkedin.com/in/jackie-liu-0207kayi)
-
-<div align="center">
+<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jackie-liu-0207kayi)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bbsocute457@gmail.com)
+![Profile Views](https://komarev.com/ghpvc/?username=Kayi8577&color=7dd4b8&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
+
+<br>
+
+### 🧭 About me
+
+I like building things end-to-end — from the idea and the visual feel of an app, down to the code that ships it. Most of my projects start as *"I wish this existed"* and end as a working prototype I actually use myself.
+
+Lately that's meant taking single-file prototypes and turning them into properly structured apps: modular architecture, a real backend for anything that touches an API key, and AI (Claude, Gemini) woven in as an actual feature — not just a chat widget bolted on the side.
+
+```
+🔭  Currently building   FitFit (health/fitness tracker) & MileStone (goal + AI companion)
+🌱  Into                 clean architecture, pastel/celestial UI, apps that feel good to use
+💬  Ask me about         React refactors, backend proxy patterns, rough idea → real PWA
+📫  Reach me at          bbsocute457@gmail.com
+```
 
 <!--
 Add more links here as you get them, e.g.:
@@ -54,16 +59,16 @@ Add more links here as you get them, e.g.:
 <div align="center">
 
 <a href="https://github.com/Kayi8577/fitfit">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kayi8577&repo=fitfit&theme=default&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kayi8577&repo=fitfit&theme=default&hide_border=true&border_color=7DD4B8" />
 </a>
 <a href="https://github.com/Kayi8577/MileStone">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kayi8577&repo=MileStone&theme=default&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kayi8577&repo=MileStone&theme=default&hide_border=true&border_color=B89DE8" />
 </a>
 
 </div>
 
-- **[FitFit](https://github.com/Kayi8577/fitfit)** — A pastel-themed health tracker: photo-based calorie logging (AI vision), workout plans, sleep tracking, and an XP/achievement system. Modular vanilla JS + a backend proxy so the Claude API key never touches the browser.
-- **[MileStone](https://github.com/Kayi8577/MileStone)** — A split-screen goal dashboard paired with "BestCase," a warm, celestial-themed AI companion for productivity and emotional check-ins. React + TypeScript, Gemini-powered chat behind its own backend proxy.
+- 🍃 **[FitFit](https://github.com/Kayi8577/fitfit)** — A pastel-themed health tracker: photo-based calorie logging (AI vision), workout plans, sleep tracking, and an XP/achievement system. Modular vanilla JS + a backend proxy so the Claude API key never touches the browser.
+- ✨ **[MileStone](https://github.com/Kayi8577/MileStone)** — A split-screen goal dashboard paired with "BestCase," a warm, celestial-themed AI companion for productivity and emotional check-ins. React + TypeScript, Gemini-powered chat behind its own backend proxy.
 
 <br>
 
@@ -71,13 +76,25 @@ Add more links here as you get them, e.g.:
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=Kayi8577&show_icons=true&theme=default&hide_border=true&count_private=true" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kayi8577&layout=compact&theme=default&hide_border=true" />
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=Kayi8577&show_icons=true&theme=default&hide_border=true&count_private=true&icon_color=7DD4B8&title_color=B89DE8" />
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kayi8577&layout=compact&theme=default&hide_border=true&langs_count=8&icon_color=7DD4B8&title_color=B89DE8" />
+
+<br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kayi8577&theme=default&hide_border=true&background=FFFFFF00&ring=7DD4B8&fire=B89DE8&currStreakLabel=7DD4B8" />
+
+<br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Kayi8577&theme=flat&no-frame=true&column=7&margin-w=8&margin-h=8" />
 
 </div>
 
 <br>
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:B89DE8,100:7DD4B8&height=100&section=footer" width="100%" />
+
 <sub>Thanks for stopping by — check out the repos above, or say hi at bbsocute457@gmail.com ✨</sub>
+
 </div>
