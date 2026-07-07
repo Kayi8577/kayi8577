@@ -13,12 +13,18 @@ Lately that's meant taking single-file prototypes and turning them into properly
 - 🔭 Currently building **FitFit** (health/fitness tracker) and **MileStone** (goal + AI-companion app)
 - 🌱 Into clean architecture, pastel/celestial UI design, and making apps that feel good to use
 - 💬 Ask me about React refactors, backend proxy patterns, or turning a rough idea into a real PWA
-- 📫 Reach me at **bbsocute457@gmail.com**
+- 📫 Reach me at **bbsocute457@gmail.com** · [LinkedIn](https://www.linkedin.com/in/jackie-liu-0207kayi)
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jackie-liu-0207kayi)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bbsocute457@gmail.com)
+
+</div>
 
 <!--
 Add more links here as you get them, e.g.:
 - 🔗 Portfolio: https://your-site.com
-- 💼 LinkedIn: https://linkedin.com/in/your-handle
 - 🐦 Twitter/X: https://x.com/your-handle
 -->
 
