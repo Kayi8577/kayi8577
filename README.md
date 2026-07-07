@@ -1,10 +1,6 @@
 <div align="center">
 
-<!-- Self-hosted animated banner (assets/meteor-banner.svg) — a meteor
-     streaks in and its impact reveals the name + tagline, echoing the
-     meteor-shower celebration in FitFit/MileStone. No third-party
-     service dependency, so it can't go down like the widgets below did. -->
-<img src="https://raw.githubusercontent.com/Kayi8577/Kayi8577/main/assets/meteor-banner.svg" width="100%" alt="Hi, I'm Kayi — Indie builder, Product + design minded, Ship fast" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7DD4B8,100:B89DE8&height=200&section=header&text=Hi,%20I'm%20Kayi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Indie%20builder%20%E2%80%A2%20Product%20%2B%20Design%20minded%20%E2%80%A2%20Ship%20fast&descAlignY=55&descSize=18" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=7DD4B8&center=true&vCenter=true&width=600&lines=I+turn+%22I+wish+this+existed%22+into+working+apps;Modular+architecture+%2B+real+backends%2C+not+hacks;Claude+%2F+Gemini+woven+in+as+an+actual+feature" alt="Typing SVG" />
 
