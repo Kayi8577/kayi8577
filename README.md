@@ -87,6 +87,16 @@ Add more links here as you get them, e.g.:
 
 <img src="https://github-profile-trophy.vercel.app/?username=Kayi8577&theme=flat&no-frame=true&column=7&margin-w=8&margin-h=8" />
 
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kayi8577/Kayi8577/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kayi8577/Kayi8577/output/github-contribution-grid-snake.svg" />
+  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Kayi8577/Kayi8577/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+<sub>(the snake regenerates daily — it'll appear here after the first GitHub Action run)</sub>
+
 </div>
 
 <br>
